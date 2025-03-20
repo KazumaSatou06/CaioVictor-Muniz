@@ -134,7 +134,8 @@ justify-content: center;}
         margin-left: 36px;
         margin-bottom: 32px;}
 
-.trabalho-recente {width: 100%; 
+.trabalho-recente {width: 100%;
+                        height: 100%; 
                 display: flex; 
                 flex-direction: column; 
                 align-items: flex-start; 
@@ -260,4 +261,7 @@ justify-content: center;}
 .main-principal{flex-direction: column-reverse;}
 
 .main-principal div{width: 80%;}
-}
+
+.trabalho-recente .img-pai{
+        display: flex;
+        flex-direction: column;}}

@@ -224,9 +224,8 @@ justify-content: center;}
         @media screen and (max-width:1024px) {
 
 
-    #header-name{height: 596px;
-                flex-direction: column;
-                }
+#header-name{height: 596px;
+                flex-direction: column;}
 
 .box-header{width: 346px;
         height: 350px;
@@ -267,4 +266,5 @@ justify-content: center;}
         flex-direction: column;}
 
 .text-footer a{font-size: 20px;}
+
 }

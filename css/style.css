@@ -27,7 +27,8 @@
             
             flex-direction: column;
             justify-content: space-between;
-            align-items: center;}
+            align-items: center;
+                margin-left: 64px;}
 
 .text-header p{margin: 0;
                 color: var(--secondary);
@@ -88,14 +89,14 @@ h1{font-size: 126px;
                 font-size: var(--font-size2);}
 
 
-.information{width: 30%;
+.information{width: 50%;
             height: 100%;
             display: flex;
             flex-direction: column;
             margin: 77px 8%;}
 
 
-.read{width: 100%;
+.read{width: 50%;
     height: 100%;
     justify-content: center;
     align-items: center;
@@ -105,7 +106,10 @@ h1{font-size: 126px;
 
 .read h2{font-family: var(--font-family2);
         font-size: 36px;
-        font-weight: 800;}
+        font-weight: 800;
+        display: flex;
+        justify-content: flex-start;}
+
 
 
 .education{width: 100%;
@@ -113,6 +117,45 @@ h1{font-size: 126px;
     flex-direction: column;
     display: flex;
 justify-content: center;}
+
+.experience h2{ margin-right: 600px;
+
+                }
+.experience { width: 100%;}
+
+
+.box-ex{width: 100% ;
+        height: 60px;
+        background-color: var(--bg-header);
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-left: 36px;
+        margin-bottom: 32px;}
+
+.trabalho-recente {width: 100%; 
+                display: flex; 
+                flex-direction: column; 
+                align-items: flex-start; 
+                margin: 0; 
+                padding: 0;}
+            
+.trabalho-recente .img-pai {display: flex; 
+                        gap: 20px; 
+                        justify-content: flex-start;}
+            
+.trabalho-recente .img-1 img {width: 310px; 
+                        height: 175px;   
+                        border-radius: 4px;}
+
+.text-img{display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: var(--font-weight2);}
+
+.text-img a{text-decoration: none;
+                color: var(--primary);}
 
 
 
@@ -144,7 +187,7 @@ justify-content: center;}
                 flex-direction: column;
                 justify-content: center;}
 
-.barra{width: 71px;
+.barra{width: 100%;
         height: 10px;
         background-color: var(--primary);
         }
@@ -164,6 +207,7 @@ justify-content: center;}
 .Recent-Works a{text-decoration: none;
                 color: var(--primary);
                 font-weight: 700;}
+
 
 .social a{
             width: 25px;
@@ -199,7 +243,7 @@ justify-content: center;}
     height: 160px;}
 
 
-.text-header{}
+.text-header{margin: 0;}
 
 
     h1{font-size: 56px;

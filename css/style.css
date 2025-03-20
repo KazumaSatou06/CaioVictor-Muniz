@@ -264,4 +264,7 @@ justify-content: center;}
 
 .trabalho-recente .img-pai{
         display: flex;
-        flex-direction: column;}}
+        flex-direction: column;}
+
+.text-footer a{font-size: 20px;}
+}
